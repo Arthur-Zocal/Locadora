@@ -1,448 +1,89 @@
-2025-03-24T16:20:55.580-03:00  INFO 18116 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Starting LocadoraApplication using Java 17.0.13 with PID 18116 (C:\Users\ARTHUR\Desktop\Faculdade\PROJETOS JEFFERSON\Locadora\target\classes started by ARTHUR in C:\Users\ARTHUR\Desktop\Faculdade\PROJETOS JEFFERSON\Locadora)
-2025-03-24T16:20:55.585-03:00  INFO 18116 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : The following 1 profile is active: "dev"
-2025-03-24T16:20:55.627-03:00  INFO 18116 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-03-24T16:20:55.627-03:00  INFO 18116 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-03-24T16:20:56.014-03:00  INFO 18116 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-24T16:20:56.065-03:00  INFO 18116 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 7 JPA repository interfaces.
-2025-03-24T16:20:56.647-03:00  INFO 18116 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-24T16:20:56.657-03:00  INFO 18116 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-24T16:20:56.658-03:00  INFO 18116 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2025-03-24T16:20:56.692-03:00  INFO 18116 --- [Locadora] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-24T16:20:56.693-03:00  INFO 18116 --- [Locadora] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1065 ms
-2025-03-24T16:20:56.717-03:00  INFO 18116 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-24T16:20:56.872-03:00  INFO 18116 --- [Locadora] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1967f3fe
-2025-03-24T16:20:56.873-03:00  INFO 18116 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-24T16:20:56.881-03:00  INFO 18116 --- [Locadora] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bd_locadora'
-2025-03-24T16:20:56.975-03:00  INFO 18116 --- [Locadora] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-24T16:20:57.036-03:00  INFO 18116 --- [Locadora] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2025-03-24T16:20:57.066-03:00  INFO 18116 --- [Locadora] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-24T16:20:57.298-03:00  INFO 18116 --- [Locadora] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-24T16:20:57.381-03:00  INFO 18116 --- [Locadora] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-03-27T20:41:24.463-03:00  INFO 10248 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Starting LocadoraApplication using Java 17.0.12 with PID 10248 (C:\Users\arthu\OneDrive\Área de Trabalho\FACULDADE\PROJETOS    (JEFFERSON)\Locadora\target\classes started by arthu in C:\Users\arthu\OneDrive\Área de Trabalho\FACULDADE\PROJETOS    (JEFFERSON)\Locadora)
+2025-03-27T20:41:24.479-03:00  INFO 10248 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : The following 1 profile is active: "dev"
+2025-03-27T20:41:24.626-03:00  INFO 10248 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-27T20:41:24.626-03:00  INFO 10248 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-27T20:41:25.479-03:00  INFO 10248 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27T20:41:25.628-03:00  INFO 10248 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 8 JPA repository interfaces.
+2025-03-27T20:41:26.889-03:00  INFO 10248 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-27T20:41:26.910-03:00  INFO 10248 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T20:41:26.911-03:00  INFO 10248 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-03-27T20:41:26.982-03:00  INFO 10248 --- [Locadora] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T20:41:26.983-03:00  INFO 10248 --- [Locadora] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2356 ms
+2025-03-27T20:41:27.027-03:00  INFO 10248 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-27T20:41:27.321-03:00  INFO 10248 --- [Locadora] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43c1f3af
+2025-03-27T20:41:27.324-03:00  INFO 10248 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-27T20:41:27.337-03:00  INFO 10248 --- [Locadora] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bd_locadora'
+2025-03-27T20:41:27.516-03:00  INFO 10248 --- [Locadora] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27T20:41:27.633-03:00  INFO 10248 --- [Locadora] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-03-27T20:41:27.695-03:00  INFO 10248 --- [Locadora] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-27T20:41:28.148-03:00  INFO 10248 --- [Locadora] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-27T20:41:28.286-03:00  INFO 10248 --- [Locadora] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
-	Database version: 17.4
+	Database version: 15.7
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-03-24T16:20:58.170-03:00  INFO 18116 --- [Locadora] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-24T16:20:58.181-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.764-03:00  INFO 10248 --- [Locadora] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-27T20:41:29.790-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     set client_min_messages = WARNING
-2025-03-24T16:20:58.182-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.792-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists carro 
        drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
-2025-03-24T16:20:58.182-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.796-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists cliente 
        drop constraint if exists FK1996t7xowtnn93b4hldf6umu
-2025-03-24T16:20:58.182-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.796-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists ordemservico 
        drop constraint if exists FKgt0plghdvvsb69r7r5yp9wswc
-2025-03-24T16:20:58.182-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.796-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists ordemservico 
        drop constraint if exists FKhtxfy4vrbm79sqrdy1irt27rs
-2025-03-24T16:20:58.183-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.797-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists perfis 
        drop constraint if exists FKlnesgnyiynjyqx8ks8cyhv6il
-2025-03-24T16:20:58.183-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.798-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists pessoa 
        drop constraint if exists FKc4mdo1jrggjhg5vs3bdm6r9ar
-2025-03-24T16:20:58.183-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop table if exists carro cascade
-2025-03-24T16:20:58.183-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop table if exists cliente cascade
-2025-03-24T16:20:58.184-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop table if exists locadora cascade
-2025-03-24T16:20:58.184-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop table if exists ordemservico cascade
-2025-03-24T16:20:58.184-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop table if exists perfis cascade
-2025-03-24T16:20:58.184-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop table if exists pessoa cascade
-2025-03-24T16:20:58.184-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop sequence if exists seq_carro
-2025-03-24T16:20:58.185-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop sequence if exists seq_cliente
-2025-03-24T16:20:58.185-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop sequence if exists seq_locadora
-2025-03-24T16:20:58.185-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    drop sequence if exists seq_pessoa
-2025-03-24T16:20:58.188-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create sequence seq_carro start with 1 increment by 50
-2025-03-24T16:20:58.192-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create sequence seq_cliente start with 1 increment by 50
-2025-03-24T16:20:58.193-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create sequence seq_locadora start with 1 increment by 50
-2025-03-24T16:20:58.194-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create sequence seq_pessoa start with 1 increment by 50
-2025-03-24T16:20:58.197-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create table carro (
-        ano_fabricacao integer not null,
-        conservacao smallint check (conservacao between 0 and 4),
-        data_aluguel date,
-        id_carro integer not null,
-        idlocadora integer,
-        quantidade_portas integer not null,
-        quilometragem integer not null,
-        valor_aluguel numeric(12,2) not null,
-        cor varchar(255) not null,
-        marca varchar(255) not null,
-        modelo varchar(255) not null,
-        numero_chassis varchar(255) not null,
-        placa varchar(255) not null unique,
-        primary key (id_carro)
-    )
-2025-03-24T16:20:58.203-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create table cliente (
-        aprovacao smallint check (aprovacao between 0 and 3),
-        data_nasc date,
-        id_cliente integer not null,
-        idlocadora integer,
-        telefone integer not null,
-        cpf varchar(255) not null unique,
-        endereco varchar(255) not null,
-        historico varchar(255) not null,
-        nome varchar(255) not null,
-        rg varchar(255) not null unique,
-        primary key (id_cliente)
-    )
-2025-03-24T16:20:58.207-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create table locadora (
-        carros_disponiveis integer not null,
-        id_locadora integer not null,
-        telefone integer not null,
-        cnpj varchar(255) not null unique,
-        endereco varchar(255) not null,
-        razao_social varchar(255) not null,
-        primary key (id_locadora)
-    )
-2025-03-24T16:20:58.210-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create table ordemservico (
-        data_fim date,
-        data_inicio date,
-        ordem_aluguel smallint check (ordem_aluguel between 0 and 2),
-        prioridade_aluguel smallint check (prioridade_aluguel between 0 and 2),
-        idpessoafisica bigint,
-        idpessoajuridica bigint,
-        id uuid not null,
-        descricao varchar(255),
-        tituloos varchar(255),
-        primary key (id)
-    )
-2025-03-24T16:20:58.213-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create table perfis (
-        tipo_pessoa integer,
-        pessoa_id bigint not null
-    )
-2025-03-24T16:20:58.213-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    create table pessoa (
-        created_at date,
-        id bigint not null,
-        pessoa_fisica bigint,
-        dtype varchar(31) not null,
-        cpf varchar(255) unique,
-        email varchar(255) unique,
-        nome_completo varchar(255),
-        senha varchar(255),
-        primary key (id)
-    )
-2025-03-24T16:20:58.217-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists carro 
-       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
-       foreign key (idlocadora) 
-       references locadora
-2025-03-24T16:20:58.219-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists cliente 
-       add constraint FK1996t7xowtnn93b4hldf6umu 
-       foreign key (idlocadora) 
-       references locadora
-2025-03-24T16:20:58.221-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists ordemservico 
-       add constraint FKgt0plghdvvsb69r7r5yp9wswc 
-       foreign key (idpessoafisica) 
-       references pessoa
-2025-03-24T16:20:58.223-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists ordemservico 
-       add constraint FKhtxfy4vrbm79sqrdy1irt27rs 
-       foreign key (idpessoajuridica) 
-       references pessoa
-2025-03-24T16:20:58.224-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists perfis 
-       add constraint FKlnesgnyiynjyqx8ks8cyhv6il 
-       foreign key (pessoa_id) 
-       references pessoa
-2025-03-24T16:20:58.225-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists pessoa 
-       add constraint FKc4mdo1jrggjhg5vs3bdm6r9ar 
-       foreign key (pessoa_fisica) 
-       references pessoa
-2025-03-24T16:20:58.227-03:00  INFO 18116 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-24T16:20:58.529-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_pessoa')
-2025-03-24T16:20:58.563-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        pessoa
-        (cpf, created_at, email, nome_completo, senha, dtype, id) 
-    values
-        (?, ?, ?, ?, ?, 'JURIDICA', ?)
-2025-03-24T16:20:58.570-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        perfis
-        (pessoa_id, tipo_pessoa) 
-    values
-        (?, ?)
-2025-03-24T16:20:58.571-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        perfis
-        (pessoa_id, tipo_pessoa) 
-    values
-        (?, ?)
-2025-03-24T16:20:58.575-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_pessoa')
-2025-03-24T16:20:58.576-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        pessoa
-        (cpf, created_at, email, nome_completo, senha, dtype, id) 
-    values
-        (?, ?, ?, ?, ?, 'JURIDICA', ?)
-2025-03-24T16:20:58.577-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        perfis
-        (pessoa_id, tipo_pessoa) 
-    values
-        (?, ?)
-2025-03-24T16:20:58.577-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        perfis
-        (pessoa_id, tipo_pessoa) 
-    values
-        (?, ?)
-2025-03-24T16:20:58.579-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        pessoa
-        (cpf, created_at, email, nome_completo, senha, pessoa_fisica, dtype, id) 
-    values
-        (?, ?, ?, ?, ?, ?, 'FISICA', ?)
-2025-03-24T16:20:58.579-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        perfis
-        (pessoa_id, tipo_pessoa) 
-    values
-        (?, ?)
-2025-03-24T16:20:58.581-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        pessoa
-        (cpf, created_at, email, nome_completo, senha, pessoa_fisica, dtype, id) 
-    values
-        (?, ?, ?, ?, ?, ?, 'FISICA', ?)
-2025-03-24T16:20:58.581-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        perfis
-        (pessoa_id, tipo_pessoa) 
-    values
-        (?, ?)
-2025-03-24T16:20:58.583-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        ordemservico
-        (data_fim, data_inicio, descricao, ordem_aluguel, idpessoafisica, idpessoajuridica, prioridade_aluguel, tituloos, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.585-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        ordemservico
-        (data_fim, data_inicio, descricao, ordem_aluguel, idpessoafisica, idpessoajuridica, prioridade_aluguel, tituloos, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.586-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_locadora')
-2025-03-24T16:20:58.595-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        locadora
-        (carros_disponiveis, cnpj, endereco, razao_social, telefone, id_locadora) 
-    values
-        (?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.596-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_locadora')
-2025-03-24T16:20:58.597-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        locadora
-        (carros_disponiveis, cnpj, endereco, razao_social, telefone, id_locadora) 
-    values
-        (?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.599-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_cliente')
-2025-03-24T16:20:58.600-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        cliente
-        (aprovacao, cpf, data_nasc, endereco, historico, idlocadora, nome, rg, telefone, id_cliente) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.602-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_cliente')
-2025-03-24T16:20:58.603-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        cliente
-        (aprovacao, cpf, data_nasc, endereco, historico, idlocadora, nome, rg, telefone, id_cliente) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.604-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_carro')
-2025-03-24T16:20:58.605-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        carro
-        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.607-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    select
-        nextval('seq_carro')
-2025-03-24T16:20:58.608-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        carro
-        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.610-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        carro
-        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.612-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        carro
-        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.613-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        carro
-        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.616-03:00 DEBUG 18116 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    insert 
-    into
-        carro
-        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:20:58.666-03:00  WARN 18116 --- [Locadora] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-24T16:20:58.931-03:00  INFO 18116 --- [Locadora] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-24T16:20:58.955-03:00  INFO 18116 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-03-24T16:20:58.963-03:00  INFO 18116 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Started LocadoraApplication in 3.731 seconds (process running for 4.081)
-2025-03-24T16:21:55.211-03:00  INFO 18116 --- [Locadora] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-24T16:21:55.223-03:00  INFO 18116 --- [Locadora] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-24T16:21:55.225-03:00  INFO 18116 --- [Locadora] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-24T16:21:55.227-03:00  INFO 18116 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-24T16:21:55.228-03:00  INFO 18116 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-24T16:24:59.271-03:00  INFO 1000 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Starting LocadoraApplication using Java 17.0.13 with PID 1000 (C:\Users\ARTHUR\Desktop\Faculdade\PROJETOS JEFFERSON\Locadora\target\classes started by ARTHUR in C:\Users\ARTHUR\Desktop\Faculdade\PROJETOS JEFFERSON\Locadora)
-2025-03-24T16:24:59.274-03:00  INFO 1000 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : The following 1 profile is active: "dev"
-2025-03-24T16:24:59.313-03:00  INFO 1000 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-03-24T16:24:59.313-03:00  INFO 1000 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-03-24T16:24:59.674-03:00  INFO 1000 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-24T16:24:59.721-03:00  INFO 1000 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 7 JPA repository interfaces.
-2025-03-24T16:25:00.302-03:00  INFO 1000 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-24T16:25:00.313-03:00  INFO 1000 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-24T16:25:00.313-03:00  INFO 1000 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2025-03-24T16:25:00.350-03:00  INFO 1000 --- [Locadora] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-24T16:25:00.351-03:00  INFO 1000 --- [Locadora] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1037 ms
-2025-03-24T16:25:00.375-03:00  INFO 1000 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-24T16:25:00.523-03:00  INFO 1000 --- [Locadora] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b083b7b
-2025-03-24T16:25:00.526-03:00  INFO 1000 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-24T16:25:00.535-03:00  INFO 1000 --- [Locadora] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bd_locadora'
-2025-03-24T16:25:00.621-03:00  INFO 1000 --- [Locadora] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-24T16:25:00.670-03:00  INFO 1000 --- [Locadora] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2025-03-24T16:25:00.696-03:00  INFO 1000 --- [Locadora] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-24T16:25:00.901-03:00  INFO 1000 --- [Locadora] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-24T16:25:00.969-03:00  INFO 1000 --- [Locadora] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.4
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-03-24T16:25:01.755-03:00  INFO 1000 --- [Locadora] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-24T16:25:01.765-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    set client_min_messages = WARNING
-2025-03-24T16:25:01.766-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists carro 
-       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
-2025-03-24T16:25:01.768-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists cliente 
-       drop constraint if exists FK1996t7xowtnn93b4hldf6umu
-2025-03-24T16:25:01.768-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists ordemservico 
-       drop constraint if exists FKgt0plghdvvsb69r7r5yp9wswc
-2025-03-24T16:25:01.768-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists ordemservico 
-       drop constraint if exists FKhtxfy4vrbm79sqrdy1irt27rs
-2025-03-24T16:25:01.769-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists perfis 
-       drop constraint if exists FKlnesgnyiynjyqx8ks8cyhv6il
-2025-03-24T16:25:01.769-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
-    alter table if exists pessoa 
-       drop constraint if exists FKc4mdo1jrggjhg5vs3bdm6r9ar
-2025-03-24T16:25:01.772-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.799-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists pessoa 
        drop constraint if exists FKn9xtvyuhvx1wsyov9l0c9vxto
-2025-03-24T16:25:01.773-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.801-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists carro cascade
-2025-03-24T16:25:01.777-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.803-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro2 cascade
+2025-03-27T20:41:29.804-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists cliente cascade
-2025-03-24T16:25:01.780-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.805-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists locadora cascade
-2025-03-24T16:25:01.782-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.805-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists ordemservico cascade
-2025-03-24T16:25:01.784-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.806-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists perfis cascade
-2025-03-24T16:25:01.785-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.806-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists pessoa cascade
-2025-03-24T16:25:01.788-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.807-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_carro
-2025-03-24T16:25:01.789-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.808-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro2
+2025-03-27T20:41:29.808-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_cliente
-2025-03-24T16:25:01.790-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.809-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_locadora
-2025-03-24T16:25:01.791-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.810-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_pessoa
-2025-03-24T16:25:01.796-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.815-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_carro start with 1 increment by 50
-2025-03-24T16:25:01.798-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.825-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro2 start with 1 increment by 50
+2025-03-27T20:41:29.827-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_cliente start with 1 increment by 50
-2025-03-24T16:25:01.799-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.829-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_locadora start with 1 increment by 50
-2025-03-24T16:25:01.801-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.832-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_pessoa start with 1 increment by 50
-2025-03-24T16:25:01.803-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.839-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create table carro (
         ano_fabricacao integer not null,
         conservacao smallint check (conservacao between 0 and 4),
@@ -459,7 +100,17 @@
         placa varchar(255) not null unique,
         primary key (id_carro)
     )
-2025-03-24T16:25:01.808-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.859-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table carro2 (
+        date_aquisicao date not null,
+        id_carro2 integer not null,
+        valor_aquisicao numeric(12,2) not null,
+        cpf_proprietario varchar(255) not null,
+        descricao varchar(255) not null,
+        nome_proprietario varchar(255) not null,
+        primary key (id_carro2)
+    )
+2025-03-27T20:41:29.865-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create table cliente (
         aprovacao smallint check (aprovacao between 0 and 3),
         data_nasc date,
@@ -473,7 +124,7 @@
         rg varchar(255) not null unique,
         primary key (id_cliente)
     )
-2025-03-24T16:25:01.812-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.874-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create table locadora (
         carros_disponiveis integer not null,
         id_locadora integer not null,
@@ -483,7 +134,7 @@
         razao_social varchar(255) not null,
         primary key (id_locadora)
     )
-2025-03-24T16:25:01.815-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.884-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create table ordemservico (
         data_fim date,
         data_inicio date,
@@ -496,12 +147,12 @@
         tituloos varchar(255),
         primary key (id)
     )
-2025-03-24T16:25:01.817-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.890-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create table perfis (
         tipo_pessoa integer,
         pessoa_id bigint not null
     )
-2025-03-24T16:25:01.818-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.891-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     create table pessoa (
         created_at date,
         id bigint not null,
@@ -514,226 +165,673 @@
         senha varchar(255),
         primary key (id)
     )
-2025-03-24T16:25:01.822-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.900-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists carro 
        add constraint FKau3d9xd3fpq886w6s8rtncfvr 
        foreign key (idlocadora) 
        references locadora
-2025-03-24T16:25:01.824-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.908-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists cliente 
        add constraint FK1996t7xowtnn93b4hldf6umu 
        foreign key (idlocadora) 
        references locadora
-2025-03-24T16:25:01.826-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.912-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists ordemservico 
        add constraint FKgt0plghdvvsb69r7r5yp9wswc 
        foreign key (idpessoafisica) 
        references pessoa
-2025-03-24T16:25:01.827-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.916-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists ordemservico 
        add constraint FKhtxfy4vrbm79sqrdy1irt27rs 
        foreign key (idpessoajuridica) 
        references pessoa
-2025-03-24T16:25:01.829-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.918-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists perfis 
        add constraint FKlnesgnyiynjyqx8ks8cyhv6il 
        foreign key (pessoa_id) 
        references pessoa
-2025-03-24T16:25:01.830-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.919-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists pessoa 
        add constraint FKc4mdo1jrggjhg5vs3bdm6r9ar 
        foreign key (pessoa_fisica) 
        references pessoa
-2025-03-24T16:25:01.830-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.921-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists pessoa 
        add constraint FKn9xtvyuhvx1wsyov9l0c9vxto 
        foreign key (pessoa_juridica) 
        references pessoa
-2025-03-24T16:25:01.832-03:00  INFO 1000 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-24T16:25:02.100-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:29.926-03:00  INFO 10248 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:41:30.411-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro2')
+2025-03-27T20:41:30.461-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro2
+        (cpf_proprietario, date_aquisicao, descricao, nome_proprietario, valor_aquisicao, id_carro2) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-03-27T20:41:30.474-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro2')
+2025-03-27T20:41:30.476-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro2
+        (cpf_proprietario, date_aquisicao, descricao, nome_proprietario, valor_aquisicao, id_carro2) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-03-27T20:41:30.478-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_pessoa')
-2025-03-24T16:25:02.133-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.490-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         pessoa
         (cpf, created_at, email, nome_completo, senha, pessoa_juridica, dtype, id) 
     values
         (?, ?, ?, ?, ?, ?, 'JURIDICA', ?)
-2025-03-24T16:25:02.138-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.495-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         perfis
         (pessoa_id, tipo_pessoa) 
     values
         (?, ?)
-2025-03-24T16:25:02.139-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.497-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         perfis
         (pessoa_id, tipo_pessoa) 
     values
         (?, ?)
-2025-03-24T16:25:02.145-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.500-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_pessoa')
-2025-03-24T16:25:02.146-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.502-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         pessoa
         (cpf, created_at, email, nome_completo, senha, pessoa_juridica, dtype, id) 
     values
         (?, ?, ?, ?, ?, ?, 'JURIDICA', ?)
-2025-03-24T16:25:02.146-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.503-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         perfis
         (pessoa_id, tipo_pessoa) 
     values
         (?, ?)
-2025-03-24T16:25:02.147-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.504-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         perfis
         (pessoa_id, tipo_pessoa) 
     values
         (?, ?)
-2025-03-24T16:25:02.148-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.506-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         pessoa
         (cpf, created_at, email, nome_completo, senha, pessoa_fisica, dtype, id) 
     values
         (?, ?, ?, ?, ?, ?, 'FISICA', ?)
-2025-03-24T16:25:02.149-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.508-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         perfis
         (pessoa_id, tipo_pessoa) 
     values
         (?, ?)
-2025-03-24T16:25:02.150-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.510-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         pessoa
         (cpf, created_at, email, nome_completo, senha, pessoa_fisica, dtype, id) 
     values
         (?, ?, ?, ?, ?, ?, 'FISICA', ?)
-2025-03-24T16:25:02.151-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.511-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         perfis
         (pessoa_id, tipo_pessoa) 
     values
         (?, ?)
-2025-03-24T16:25:02.152-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.514-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         ordemservico
         (data_fim, data_inicio, descricao, ordem_aluguel, idpessoafisica, idpessoajuridica, prioridade_aluguel, tituloos, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.154-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.518-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         ordemservico
         (data_fim, data_inicio, descricao, ordem_aluguel, idpessoafisica, idpessoajuridica, prioridade_aluguel, tituloos, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.155-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.520-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_locadora')
-2025-03-24T16:25:02.163-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.523-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         locadora
         (carros_disponiveis, cnpj, endereco, razao_social, telefone, id_locadora) 
     values
         (?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.165-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.525-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_locadora')
-2025-03-24T16:25:02.166-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.526-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         locadora
         (carros_disponiveis, cnpj, endereco, razao_social, telefone, id_locadora) 
     values
         (?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.167-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.528-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_cliente')
-2025-03-24T16:25:02.168-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.530-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         cliente
         (aprovacao, cpf, data_nasc, endereco, historico, idlocadora, nome, rg, telefone, id_cliente) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.169-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.533-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_cliente')
-2025-03-24T16:25:02.170-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.535-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         cliente
         (aprovacao, cpf, data_nasc, endereco, historico, idlocadora, nome, rg, telefone, id_cliente) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.171-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.537-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_carro')
-2025-03-24T16:25:02.173-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.539-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         carro
         (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.175-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.542-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_carro')
-2025-03-24T16:25:02.177-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.544-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         carro
         (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.178-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.547-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         carro
         (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.180-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.550-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         carro
         (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.182-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.553-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         carro
         (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.185-03:00 DEBUG 1000 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+2025-03-27T20:41:30.557-03:00 DEBUG 10248 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         carro
         (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-03-24T16:25:02.232-03:00  WARN 1000 --- [Locadora] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-24T16:25:02.486-03:00  INFO 1000 --- [Locadora] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-24T16:25:02.514-03:00  INFO 1000 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-03-24T16:25:02.521-03:00  INFO 1000 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Started LocadoraApplication in 3.572 seconds (process running for 3.901)
-2025-03-24T16:25:52.352-03:00  INFO 1000 --- [Locadora] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-24T16:25:52.363-03:00  INFO 1000 --- [Locadora] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-24T16:25:52.365-03:00  INFO 1000 --- [Locadora] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-24T16:25:52.367-03:00  INFO 1000 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-24T16:25:52.369-03:00  INFO 1000 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-27T20:41:30.564-03:00  WARN 10248 --- [Locadora] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carro2Resource': Unsatisfied dependency expressed through field 'carro2Service': No qualifying bean of type 'com.locadora.services.Carro2Service' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-03-27T20:41:30.565-03:00  INFO 10248 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:41:30.570-03:00  INFO 10248 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-27T20:41:30.573-03:00  INFO 10248 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-27T20:41:30.578-03:00  INFO 10248 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-03-27T20:41:30.597-03:00  INFO 10248 --- [Locadora] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-27T20:41:30.623-03:00 ERROR 10248 --- [Locadora] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field carro2Service in com.locadora.resources.Carro2Resource required a bean of type 'com.locadora.services.Carro2Service' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.locadora.services.Carro2Service' in your configuration.
+
+2025-03-27T20:42:27.810-03:00  INFO 17124 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Starting LocadoraApplication using Java 17.0.12 with PID 17124 (C:\Users\arthu\OneDrive\Área de Trabalho\FACULDADE\PROJETOS    (JEFFERSON)\Locadora\target\classes started by arthu in C:\Users\arthu\OneDrive\Área de Trabalho\FACULDADE\PROJETOS    (JEFFERSON)\Locadora)
+2025-03-27T20:42:27.813-03:00  INFO 17124 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : The following 1 profile is active: "dev"
+2025-03-27T20:42:27.906-03:00  INFO 17124 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-27T20:42:27.907-03:00  INFO 17124 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-27T20:42:28.573-03:00  INFO 17124 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27T20:42:28.655-03:00  INFO 17124 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 8 JPA repository interfaces.
+2025-03-27T20:42:29.800-03:00  INFO 17124 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-27T20:42:29.817-03:00  INFO 17124 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T20:42:29.818-03:00  INFO 17124 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-03-27T20:42:29.930-03:00  INFO 17124 --- [Locadora] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T20:42:29.931-03:00  INFO 17124 --- [Locadora] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2022 ms
+2025-03-27T20:42:29.992-03:00  INFO 17124 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-27T20:42:30.357-03:00  INFO 17124 --- [Locadora] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14f43032
+2025-03-27T20:42:30.360-03:00  INFO 17124 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-27T20:42:30.378-03:00  INFO 17124 --- [Locadora] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bd_locadora'
+2025-03-27T20:42:30.641-03:00  INFO 17124 --- [Locadora] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27T20:42:30.770-03:00  INFO 17124 --- [Locadora] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-03-27T20:42:30.829-03:00  INFO 17124 --- [Locadora] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-27T20:42:31.281-03:00  INFO 17124 --- [Locadora] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-27T20:42:31.382-03:00  INFO 17124 --- [Locadora] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.7
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-27T20:42:32.691-03:00  INFO 17124 --- [Locadora] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-27T20:42:32.705-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2025-03-27T20:42:32.706-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2025-03-27T20:42:32.710-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists cliente 
+       drop constraint if exists FK1996t7xowtnn93b4hldf6umu
+2025-03-27T20:42:32.711-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists ordemservico 
+       drop constraint if exists FKgt0plghdvvsb69r7r5yp9wswc
+2025-03-27T20:42:32.712-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists ordemservico 
+       drop constraint if exists FKhtxfy4vrbm79sqrdy1irt27rs
+2025-03-27T20:42:32.714-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       drop constraint if exists FKlnesgnyiynjyqx8ks8cyhv6il
+2025-03-27T20:42:32.715-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists pessoa 
+       drop constraint if exists FKc4mdo1jrggjhg5vs3bdm6r9ar
+2025-03-27T20:42:32.716-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists pessoa 
+       drop constraint if exists FKn9xtvyuhvx1wsyov9l0c9vxto
+2025-03-27T20:42:32.717-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2025-03-27T20:42:32.722-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro2 cascade
+2025-03-27T20:42:32.726-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2025-03-27T20:42:32.731-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2025-03-27T20:42:32.736-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists ordemservico cascade
+2025-03-27T20:42:32.739-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists perfis cascade
+2025-03-27T20:42:32.742-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists pessoa cascade
+2025-03-27T20:42:32.746-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2025-03-27T20:42:32.748-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro2
+2025-03-27T20:42:32.750-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2025-03-27T20:42:32.752-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2025-03-27T20:42:32.755-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_pessoa
+2025-03-27T20:42:32.761-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2025-03-27T20:42:32.764-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro2 start with 1 increment by 50
+2025-03-27T20:42:32.767-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2025-03-27T20:42:32.769-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2025-03-27T20:42:32.770-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_pessoa start with 1 increment by 50
+2025-03-27T20:42:32.774-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        ano_fabricacao integer not null,
+        conservacao smallint check (conservacao between 0 and 4),
+        data_aluguel date,
+        id_carro integer not null,
+        idlocadora integer,
+        quantidade_portas integer not null,
+        quilometragem integer not null,
+        valor_aluguel numeric(12,2) not null,
+        cor varchar(255) not null,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        numero_chassis varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2025-03-27T20:42:32.785-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table carro2 (
+        date_aquisicao date not null,
+        id_carro2 integer not null,
+        valor_aquisicao numeric(12,2) not null,
+        cpf_proprietario varchar(255) not null,
+        descricao varchar(255) not null,
+        nome_proprietario varchar(255) not null,
+        primary key (id_carro2)
+    )
+2025-03-27T20:42:32.793-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        aprovacao smallint check (aprovacao between 0 and 3),
+        data_nasc date,
+        id_cliente integer not null,
+        idlocadora integer,
+        telefone integer not null,
+        cpf varchar(255) not null unique,
+        endereco varchar(255) not null,
+        historico varchar(255) not null,
+        nome varchar(255) not null,
+        rg varchar(255) not null unique,
+        primary key (id_cliente)
+    )
+2025-03-27T20:42:32.804-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        carros_disponiveis integer not null,
+        id_locadora integer not null,
+        telefone integer not null,
+        cnpj varchar(255) not null unique,
+        endereco varchar(255) not null,
+        razao_social varchar(255) not null,
+        primary key (id_locadora)
+    )
+2025-03-27T20:42:32.810-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table ordemservico (
+        data_fim date,
+        data_inicio date,
+        ordem_aluguel smallint check (ordem_aluguel between 0 and 2),
+        prioridade_aluguel smallint check (prioridade_aluguel between 0 and 2),
+        idpessoafisica bigint,
+        idpessoajuridica bigint,
+        id uuid not null,
+        descricao varchar(255),
+        tituloos varchar(255),
+        primary key (id)
+    )
+2025-03-27T20:42:32.816-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table perfis (
+        tipo_pessoa integer,
+        pessoa_id bigint not null
+    )
+2025-03-27T20:42:32.817-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    create table pessoa (
+        created_at date,
+        id bigint not null,
+        pessoa_fisica bigint,
+        pessoa_juridica bigint,
+        dtype varchar(31) not null,
+        cpf varchar(255) unique,
+        email varchar(255) unique,
+        nome_completo varchar(255),
+        senha varchar(255),
+        primary key (id)
+    )
+2025-03-27T20:42:32.825-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2025-03-27T20:42:32.829-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists cliente 
+       add constraint FK1996t7xowtnn93b4hldf6umu 
+       foreign key (idlocadora) 
+       references locadora
+2025-03-27T20:42:32.832-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists ordemservico 
+       add constraint FKgt0plghdvvsb69r7r5yp9wswc 
+       foreign key (idpessoafisica) 
+       references pessoa
+2025-03-27T20:42:32.836-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists ordemservico 
+       add constraint FKhtxfy4vrbm79sqrdy1irt27rs 
+       foreign key (idpessoajuridica) 
+       references pessoa
+2025-03-27T20:42:32.837-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       add constraint FKlnesgnyiynjyqx8ks8cyhv6il 
+       foreign key (pessoa_id) 
+       references pessoa
+2025-03-27T20:42:32.838-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists pessoa 
+       add constraint FKc4mdo1jrggjhg5vs3bdm6r9ar 
+       foreign key (pessoa_fisica) 
+       references pessoa
+2025-03-27T20:42:32.839-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists pessoa 
+       add constraint FKn9xtvyuhvx1wsyov9l0c9vxto 
+       foreign key (pessoa_juridica) 
+       references pessoa
+2025-03-27T20:42:32.843-03:00  INFO 17124 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:42:33.349-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro2')
+2025-03-27T20:42:33.400-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro2
+        (cpf_proprietario, date_aquisicao, descricao, nome_proprietario, valor_aquisicao, id_carro2) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.411-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro2')
+2025-03-27T20:42:33.413-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro2
+        (cpf_proprietario, date_aquisicao, descricao, nome_proprietario, valor_aquisicao, id_carro2) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.415-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_pessoa')
+2025-03-27T20:42:33.428-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pessoa
+        (cpf, created_at, email, nome_completo, senha, pessoa_juridica, dtype, id) 
+    values
+        (?, ?, ?, ?, ?, ?, 'JURIDICA', ?)
+2025-03-27T20:42:33.433-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (pessoa_id, tipo_pessoa) 
+    values
+        (?, ?)
+2025-03-27T20:42:33.434-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (pessoa_id, tipo_pessoa) 
+    values
+        (?, ?)
+2025-03-27T20:42:33.439-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_pessoa')
+2025-03-27T20:42:33.441-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pessoa
+        (cpf, created_at, email, nome_completo, senha, pessoa_juridica, dtype, id) 
+    values
+        (?, ?, ?, ?, ?, ?, 'JURIDICA', ?)
+2025-03-27T20:42:33.442-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (pessoa_id, tipo_pessoa) 
+    values
+        (?, ?)
+2025-03-27T20:42:33.443-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (pessoa_id, tipo_pessoa) 
+    values
+        (?, ?)
+2025-03-27T20:42:33.446-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pessoa
+        (cpf, created_at, email, nome_completo, senha, pessoa_fisica, dtype, id) 
+    values
+        (?, ?, ?, ?, ?, ?, 'FISICA', ?)
+2025-03-27T20:42:33.447-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (pessoa_id, tipo_pessoa) 
+    values
+        (?, ?)
+2025-03-27T20:42:33.451-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pessoa
+        (cpf, created_at, email, nome_completo, senha, pessoa_fisica, dtype, id) 
+    values
+        (?, ?, ?, ?, ?, ?, 'FISICA', ?)
+2025-03-27T20:42:33.452-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (pessoa_id, tipo_pessoa) 
+    values
+        (?, ?)
+2025-03-27T20:42:33.456-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        ordemservico
+        (data_fim, data_inicio, descricao, ordem_aluguel, idpessoafisica, idpessoajuridica, prioridade_aluguel, tituloos, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.460-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        ordemservico
+        (data_fim, data_inicio, descricao, ordem_aluguel, idpessoafisica, idpessoajuridica, prioridade_aluguel, tituloos, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.463-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2025-03-27T20:42:33.466-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (carros_disponiveis, cnpj, endereco, razao_social, telefone, id_locadora) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.468-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2025-03-27T20:42:33.471-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (carros_disponiveis, cnpj, endereco, razao_social, telefone, id_locadora) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.474-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2025-03-27T20:42:33.477-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (aprovacao, cpf, data_nasc, endereco, historico, idlocadora, nome, rg, telefone, id_cliente) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.480-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2025-03-27T20:42:33.481-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (aprovacao, cpf, data_nasc, endereco, historico, idlocadora, nome, rg, telefone, id_cliente) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.485-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2025-03-27T20:42:33.487-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.490-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2025-03-27T20:42:33.492-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.495-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.501-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.504-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.508-03:00 DEBUG 17124 --- [Locadora] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (ano_fabricacao, conservacao, cor, data_aluguel, idlocadora, marca, modelo, numero_chassis, placa, quantidade_portas, quilometragem, valor_aluguel, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-27T20:42:33.607-03:00  WARN 17124 --- [Locadora] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-27T20:42:34.066-03:00  INFO 17124 --- [Locadora] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-27T20:42:34.103-03:00  INFO 17124 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-27T20:42:34.114-03:00  INFO 17124 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Started LocadoraApplication in 6.874 seconds (process running for 7.479)
+2025-03-27T20:43:02.464-03:00  INFO 17124 --- [Locadora] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T20:43:02.494-03:00  INFO 17124 --- [Locadora] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T20:43:02.499-03:00  INFO 17124 --- [Locadora] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:43:02.503-03:00  INFO 17124 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-27T20:43:02.511-03:00  INFO 17124 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

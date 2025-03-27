@@ -33,14 +33,21 @@ public class DBService {
     @Autowired
     private OrdemServicoRepository ordemServicoRepo;
 
+    @Autowired
+    private Carro2Repository carro2Repo;
+
     public void initDB(){
+
+        // Carro2
+        Carro2 carro21 = new Carro2(null, "Omega Preto 4 portas", LocalDate.now(), new BigDecimal(45.000), "Pedro da Silva", "000.000.000-01");
+        Carro2 carro22 = new Carro2(null, "Voyage Prata 4  portas", LocalDate.now(), new BigDecimal(22.000), "Rodolfo Pererira", "000.000.000-02");
 
         //  Pessoa Juridica
         PessoaJuridica pessoaJuridica1 = new PessoaJuridica(null,"Arthur Zocal Ribeiro da Silva", "000.000.000-00", "arthur@gmail.com","111");
         PessoaJuridica pessoaJuridica2 = new PessoaJuridica(null,"Felipe Zocal Medes", "111.111.111-11", "felipe@gmail.com","111");
 
         //  Pessoa Fisica
-        PessoaFisica pessoaFisica1 = new PessoaFisica(null,"Arthur Ribeiro da Silva", "100.000.000-00", "arthurz@gmail.com","2122");
+        PessoaFisica pessoaFisica1 = new PessoaFisica(null,"Arthur Zocal Ribeiro da Silva", "100.000.000-00", "arthurz@gmail.com","2122");
         PessoaFisica pessoaFisica2 = new PessoaFisica(null,"Felipe Medes", "121.111.111-11", "felipez@gmail.com","2212");
 
         //  Ordem Servico
@@ -62,6 +69,9 @@ public class DBService {
         Carro carro4 = new Carro(null,"FIAT","Strada","Prata",2018, new BigDecimal("300.50"),LocalDate.now(),"STRADA",2500,2,"6666",locadora1, Conservacao.RAZOAVEL);
         Carro carro5 = new Carro(null,"Honda","Civic","Branco",2020, new BigDecimal("350.50"),LocalDate.now(),"CIVIC",2000,4,"5555",locadora1, Conservacao.BOM);
         Carro carro6 = new Carro(null, "Toyota", "Corolla", "Preto", 2016, new BigDecimal("340.00"), LocalDate.now(), "COROLLA", 1100, 4, "4444", locadora2, Conservacao.BOM);
+
+        carro2Repo.save(carro21);
+        carro2Repo.save(carro22);
 
         pessoaJuridicaRepo.save(pessoaJuridica1);
         pessoaJuridicaRepo.save(pessoaJuridica2);
